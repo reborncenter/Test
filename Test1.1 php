@@ -1,9 +1,9 @@
 <?php
-        for($i = 0; $i <= 4; $i++) {
-            for($j=4;$j>$i;$j--){
+        for($a = 0; $a <= 4; $a++) {
+            for($i=4;$i>$a;$i--){
                 echo"&nbsp;&nbsp;";
                 }
-            for($z=0;$z<=$i;$z++){
+            for($z=0;$z<=$a;$z++){
                 echo"o";}
                 echo"<br>";
             }
