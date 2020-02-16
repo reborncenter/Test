@@ -1,0 +1,12 @@
+<?php
+$a=0;
+        for($i = 0; $i <= 4; $i++) {
+            for($j=4;$j>$i;$j--){
+                echo"&nbsp;&nbsp;";
+                }
+            for($z=0;$z<=$a;$z++){
+                echo"o";}
+                $a=$a+2;
+                echo"<br>";
+            }
+?>
